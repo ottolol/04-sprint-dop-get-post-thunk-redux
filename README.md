@@ -19,26 +19,26 @@ yarn run dev
 
 ### Задание 1 (пишем get-запрос)
 
-Написать get-запрос за `decks` и протипизировать ответ (`fetchDecks`). (Параметры указывать и типизировать не надо).
+Написать get-запрос за `decks` и протипизировать ответ (`fetchDecks`). (Параметры указывать и типизировать не надо).<br>
 Отправить запрос при монтировании компонента `DecksList`.
 
 ### Задание 2 (redux flow)
 
-Отрисовать колоды, используя `redux state`.
-Написать `action creator` (`setDecksAC`).
-Написать `case` в `reducer` для этоrо `action` .
-Задиспатчить `action` в компоненте `DecksList`.
-Получить `decks` из `redux state` в компоненте `DecksList`.
+Отрисовать колоды, используя `redux state`.<br>
+Написать `action creator` (`setDecksAC`).<br>
+Написать `case` в `reducer` для этоrо `action` .<br>
+Задиспатчить `action` в компоненте `DecksList`.<br>
+Получить `decks` из `redux state` в компоненте `DecksList`.<br>
 Отрендерить `decks`, используя компонент `Deckitem`.
 
 ### Задание 3 (async redux flow)
 
-Вынести асинхронную логику из компонента `DecksList`.
-Написать `fetchDecksTC` (файл `decks-thunks.ts`).
+Вынести асинхронную логику из компонента `DecksList`.<br>
+Написать `fetchDecksTC` (файл `decks-thunks.ts`).<br>
 Использовать `fetchDecksThunk` в компоненте `DecksList`.
 
 ### Задание 4 (post-запрос)
 
-Написать `post-запрос` в `decksAPI` (`addDeck`) - будем работать только с `name`.
-Написать `addDeckTC` и `addDeckAC` (+`case` в `decksReducer`).
+Написать `post-запрос` в `decksAPI` (`addDeck`) - будем работать только с `name`.<br>
+Написать `addDeckTC` и `addDeckAC` (+`case` в `decksReducer`).<br>
 Задиспатчить `thunk` при отправке формы в компоненте `AddNewDeckForm` (функция `onSubmit`, `name` берём из `data`).
