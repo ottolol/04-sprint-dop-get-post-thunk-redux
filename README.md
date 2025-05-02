@@ -19,18 +19,26 @@ yarn run dev
 
 ### Задание 1 (пишем get-запрос)
 
-Написать get-запрос за decks и протипизировать ответ (fetchDecks). (Параметры указывать и типизировать не надо) Отправить запрос при монтировании компонента DecksList
+Написать get-запрос за `decks` и протипизировать ответ (`fetchDecks`). (Параметры указывать и типизировать не надо).
+Отправить запрос при монтировании компонента `DecksList`.
 
 ### Задание 2 (redux flow)
 
-отрисовать колоды, используя redux state Написать action creator (setDecksAC) Написать case в reducer для этоrо action Задиспатчить action в компоненте DecksList Получить decks из redux state в компоненте DecksList Отрендерить decks, используя компонент Deckitem
+Отрисовать колоды, используя `redux state`.
+Написать `action creator` (`setDecksAC`).
+Написать `case` в `reducer` для этоrо `action` .
+Задиспатчить `action` в компоненте `DecksList`.
+Получить `decks` из `redux state` в компоненте `DecksList`.
+Отрендерить `decks`, используя компонент `Deckitem`.
 
-### Задание 3
+### Задание 3 (async redux flow)
 
-(async redux flow) Вынести асинхронную логику из компонента DecksList Написать fetchDecksTC (файл decks-thunks.ts) Использовать fetchDecksThunk в компоненте DecksList
+Вынести асинхронную логику из компонента `DecksList`.
+Написать `fetchDecksTC` (файл `decks-thunks.ts`).
+Использовать `fetchDecksThunk` в компоненте `DecksList`.
 
 ### Задание 4 (post-запрос)
 
-Написать post-запрос в decksAPI (addDeck) - будем работать только с name
-Написать addDeckTC и addDeckAC (+case в decksReducer)
-Задиспатчить thunk при отправке формы в компоненте AddNewDeckForm (функция onSubmit, name берём из data)
+Написать `post-запрос` в `decksAPI` (`addDeck`) - будем работать только с `name`.
+Написать `addDeckTC` и `addDeckAC` (+`case` в `decksReducer`).
+Задиспатчить `thunk` при отправке формы в компоненте `AddNewDeckForm` (функция `onSubmit`, `name` берём из `data`).
